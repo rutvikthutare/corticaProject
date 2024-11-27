@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Teacher Dashboard</h2>
+        <button id="viewAttendance">View Attendance</button>
+        <button id="viewStudents">View Students</button>
+        <button id="logout">Logout</button>
+
+        <div id="attendanceList" style="display: none;">
+            <h3>Attendance</h3>
+            <table id="attendanceTable">
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Selfie</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="studentList" style="display: none;">
+            <h3>Students</h3>
+            <table id="studentsTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="/js/teacher_dashboard.js"></script>
+</body>
+</html>

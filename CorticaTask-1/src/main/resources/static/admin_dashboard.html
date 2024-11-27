@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Admin Dashboard</h2>
+        <button id="viewUsers">View Users</button>
+        <button id="addTeacher">Add Teacher</button>
+        <button id="logout">Logout</button>
+
+        <div id="usersList" style="display: none;">
+            <h3>Users</h3>
+            <table id="usersTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="/js/admin_dashboard.js"></script>
+</body>
+</html>
